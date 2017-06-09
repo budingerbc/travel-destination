@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vacation Getaways</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Vaction!  Where should you go?</h1>
+
+    <form id="vacation">
+      <div class="boxlayout">
+      <div class="radio">
+        <h4 class="bg-info">How warm should it be?</h4>
+        <label>
+          <input type="radio" name="temperature" value="hot" checked>
+          Hotter is better!
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="temperature" value="temperate">
+          Right in the middle.
+        </label>
+      </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="temperature" value="cold">
+          Brrr, bring on the snow!</label>
+      </div>
+    </div>
+
+      <div class="boxlayout">
+      <div class="radio">
+        <h4 class="bg-info">Urban or rural setting?</h4>
+        <label>
+          <input type="radio" name="location" value="urban" checked>
+          City life!
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="location" value="rural">
+          Nature and countryside
+        </label>
+      </div>
+    </div>
+
+    <div class="boxlayout">
+      <div class="radio">
+        <h4 class="bg-info">What kind of activities do you enjoy?</h4>
+        <label>
+          <input type="radio" name="activity" value="lounge" checked>
+          Lounging by the pool
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="activity" value="explore">
+          Exploring the land
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="activity" value="nightlife">
+          Experiencing the night life
+        </label>
+      </div>
+    </div>
+
+    <div class="boxlayout">
+      <div class="radio">
+        <h4 class="bg-info">Do crowds and lines annoy you?</h4>
+        <label>
+          <input type="radio" name="crowd" value="notcrowded" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="crowd" value="crowded">
+          No
+        </label>
+      </div>
+    </div>
+
+    <div class="boxlayout">
+      <div class="radio">
+        <h4 class="bg-info">What's your favorite continent?</h4>
+        <label>
+          <input type="radio" name="continent" value="namerica" checked>
+          North America
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="continent" value="samerica">
+          South America
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="continent" value="europe">
+          Europe
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="continent" value="asia">
+          Asia
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="continent" value="africa">
+          Africa
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="continent" value="australia">
+          Australia
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="continent" value="antarctica">
+          Antarctica
+        </label>
+      </div>
+    </div>
+
+
+      <button type="submit" class="btn">Go!</button>
+    </form>
+    <div class="output" id="luke">
+      <img src="https://vignette1.wikia.nocookie.net/starwars/images/d/d9/Luke-rotjpromo.jpg/revision/latest/scale-to-width-down/350?cb=20091030151422" alt="Luke Skywalker"></img>
+    </div>
+    <div class="output" id="leia">
+      <img src="https://vignette1.wikia.nocookie.net/starwars/images/9/9b/Princessleiaheadwithgun.jpg/revision/latest?cb=20071007050854" alt="Leia Skywalker"></img>
+    </div>
+    <div class="output" id="emperor">
+      <img src="http://static.boredpanda.com/blog/wp-content/uploads/2015/11/the-daily-life-of-darth-vader-is-my-latest-365-day-photo-project-33__880.jpg" alt="Emperor Palpatine"></img>
+    </div>
+    <div class="output" id="vader">
+      <img src="http://static.boredpanda.com/blog/wp-content/uploads/2015/11/the-daily-life-of-darth-vader-is-my-latest-365-day-photo-project-33__880.jpg" alt="Darth Vader"></img>
+    </div>
+    <div class="output" id="hansolo">
+      <img src="http://screenrant.com/wp-content/uploads/young-han-solo-star-wars-movie-casting.jpg" alt="Han solo"></img>
+    </div>
+    <div class="output" id="c3p0">
+      <img src="https://www.sideshowtoy.com/wp-content/uploads/2014/11/star-wars-c-3po-sixth-scale-feature-21711.jpg" alt="C3P0"></img>
+    </div>
+    <div class="output" id="r2d2">
+      <img src="https://i.ytimg.com/vi/8tjMM67-aao/maxresdefault.jpg" alt="R2D2"></img>
+    </div>
+    <div class="output" id="bobafett">
+      <img src="https://www.sideshowtoy.com/wp-content/uploads/2015/08/Boba-Fett-Stawars-feature-902491.jpg" alt="Boba Fett"></img>
+    </div>
+    <div class="output" id="stormtroopers">
+      <img src="http://img.amiami.jp/images/product/main/153/FIGURE-013621.jpg" alt="Storm Troopers"></img>
+    </div>
+
+
+    <!-- light vs dark side
+    male vs female vs droid characters
+    tale of redemption
+    side characters vs main characters
+    light saber vs force powers
+    x-wing vs tie fighter
+    rebellion vs empire
+
+
+    luke skywalker    light male    primary     human   lightsaber
+    darth vader       dark  male    primary     human   lightsaber
+    princess leia     light female  primary     human   blaster
+    emperor palpatine dark  male    primary     human   force powers
+    han solo          light male    primary     human   space ship
+    c3po              light female  secondary   droid   non-combative
+    r2d2              light male    secondary   droid   non-combative
+    boba fett         dark  male    secondary   droid   space ship
+    storm troopers    dark  female  secondary   droid   blaster-->
+
+
+
+  </div>
+</body>
+</html>

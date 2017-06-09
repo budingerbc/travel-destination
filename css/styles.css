@@ -1,0 +1,16 @@
+.output {
+  display: none;
+}
+
+.boxlayout {
+  border: 1px solid gray;
+  max-width: 320px;
+  padding: 5px;
+  margin: 2px;
+  background-color: #eef9ed
+}
+
+h1 {
+  text-align: center;
+
+}
