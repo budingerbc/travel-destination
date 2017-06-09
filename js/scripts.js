@@ -1,14 +1,40 @@
 $(document).ready(function() {
-  $("form#starwars").submit(function(event) {
+  $("form#vacation").submit(function(event) {
     event.preventDefault();
 
     $(".output").hide();
 
-    var darkOrLight = $("input:radio[name=temperature]:checked").val();
-    var gender = $("input:radio[name=location]:checked").val();
-    var role = $("input:radio[name=activity]:checked").val();
-    var idenity = $("input:radio[name=crowd]:checked").val();
-    var combat = $("input:radio[name=hemisphere]:checked").val();
+    var temperature = $("input:radio[name=temperature]:checked").val();
+    var location = $("input:radio[name=location]:checked").val();
+    var activity = $("input:radio[name=activity]:checked").val();
+    var crowd = $("input:radio[name=crowd]:checked").val();
+    var hemisphere = $("input:radio[name=hemisphere]:checked").val();
+
+    function city() {
+      if (location === 'urban') {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    function crowds() {
+      if (crowd === 'crowded') {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    function northernHem() {
+      if (hemisphere === 'northern') {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    if ()
 
 
   });
