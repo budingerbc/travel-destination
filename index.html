@@ -15,154 +15,137 @@
     <div class="row">
       <div class="col-md-4">
 
-    <form id="vacation">
-      <div class="boxlayout">
-      <div class="radio">
-        <h4 class="bg-info">How warm should it be?</h4>
-        <label>
-          <input type="radio" name="temperature" value="hot" checked>
-          Hotter is better!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="temperature" value="temperate">
-          Right in the middle.
-        </label>
-      </div>
-        <div class="radio">
-          <label>
-          <input type="radio" name="temperature" value="cold">
-          Brrr, bring on the snow!</label>
-      </div>
-    </div>
+        <form id="vacation">
+          <div class="boxlayout">
+            <div class="radio">
+              <h4 class="bg-info">How warm should it be?</h4>
+              <label>
+                <input type="radio" name="temperature" value="hot" checked>
+                Hotter is better!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="temperature" value="temperate">
+                Right in the middle.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="temperature" value="cold">
+                Brrr, bring on the snow!</label>
+              </div>
+            </div>
 
-      <div class="boxlayout">
-      <div class="radio">
-        <h4 class="bg-info">Urban or rural setting?</h4>
-        <label>
-          <input type="radio" name="location" value="urban" checked>
-          City life!
-        </label>
+            <div class="boxlayout">
+              <div class="radio">
+                <h4 class="bg-info">Urban or rural setting?</h4>
+                <label>
+                  <input type="radio" name="location" value="urban" checked>
+                  City life!
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="location" value="rural">
+                  Nature and countryside
+                </label>
+              </div>
+            </div>
+
+            <div class="boxlayout">
+              <div class="radio">
+                <h4 class="bg-info">What kind of activities do you enjoy?</h4>
+                <label>
+                  <input type="radio" name="activity" value="lounge" checked>
+                  Lounging by the pool
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="activity" value="explore">
+                  Exploring the land
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="activity" value="nightlife">
+                  Experiencing the night life
+                </label>
+              </div>
+            </div>
+
+            <div class="boxlayout">
+              <div class="radio">
+                <h4 class="bg-info">Do crowds and lines annoy you?</h4>
+                <label>
+                  <input type="radio" name="crowd" value="notcrowded" checked>
+                  Yes
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="crowd" value="crowded">
+                  No
+                </label>
+              </div>
+            </div>
+
+            <div class="boxlayout">
+              <div class="radio">
+                <h4 class="bg-info">Northern or Southern hemisphere?</h4>
+                <label>
+                  <input type="radio" name="hemisphere" value="northern" checked>
+                  Northern
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="hemisphere" value="southern">
+                  Southern
+                </label>
+              </div>
+            </div>
+
+            <button type="submit" class="btn">Go!</button>
+          </form>
+
+        </div>
+        <div class="col-md-8">
+
+          <div class="output" id="vegas">
+            <img src="https://vignette1.wikia.nocookie.net/starwars/images/d/d9/Luke-rotjpromo.jpg/revision/latest/scale-to-width-down/350?cb=20091030151422" alt="Las Vegas"></img>
+          </div>
+          <div class="output" id="everest">
+            <img src="https://vignette1.wikia.nocookie.net/starwars/images/9/9b/Princessleiaheadwithgun.jpg/revision/latest?cb=20071007050854" alt="Mount Everest"></img>
+          </div>
+          <div class="output" id="antarctica">
+            <img src="http://static.boredpanda.com/blog/wp-content/uploads/2015/11/the-daily-life-of-darth-vader-is-my-latest-365-day-photo-project-33__880.jpg" alt="Antarctica"></img>
+          </div>
+          <div class="output" id="grandcanyon">
+            <img src="http://static.boredpanda.com/blog/wp-content/uploads/2015/11/the-daily-life-of-darth-vader-is-my-latest-365-day-photo-project-33__880.jpg" alt="Grand Canyon"></img>
+          </div>
+          <div class="output" id="cabo">
+            <img src="http://screenrant.com/wp-content/uploads/young-han-solo-star-wars-movie-casting.jpg" alt="Cabo San Lucas"></img>
+          </div>
+          <div class="output" id="victoriafalls">
+            <img src="https://www.sideshowtoy.com/wp-content/uploads/2014/11/star-wars-c-3po-sixth-scale-feature-21711.jpg" alt="Victoria Falls"></img>
+          </div>
+          <div class="output" id="yellowstone">
+            <img src="https://i.ytimg.com/vi/8tjMM67-aao/maxresdefault.jpg" alt="Yellowstone"></img>
+          </div>
+          <div class="output" id="rome">
+            <img src="https://www.sideshowtoy.com/wp-content/uploads/2015/08/Boba-Fett-Stawars-feature-902491.jpg" alt="Rome"></img>
+          </div>
+          <div class="output" id="boston">
+            <img src="http://img.amiami.jp/images/product/main/153/FIGURE-013621.jpg" alt="Boston"></img>
+          </div>
+          <div class="output" id="sydney">
+            <img src="http://img.amiami.jp/images/product/main/153/FIGURE-013621.jpg" alt="Sydney"></img>
+          </div>
+
+        </div>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="location" value="rural">
-          Nature and countryside
-        </label>
-      </div>
     </div>
-
-    <div class="boxlayout">
-      <div class="radio">
-        <h4 class="bg-info">What kind of activities do you enjoy?</h4>
-        <label>
-          <input type="radio" name="activity" value="lounge" checked>
-          Lounging by the pool
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="explore">
-          Exploring the land
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="nightlife">
-          Experiencing the night life
-        </label>
-      </div>
-    </div>
-
-    <div class="boxlayout">
-      <div class="radio">
-        <h4 class="bg-info">Do crowds and lines annoy you?</h4>
-        <label>
-          <input type="radio" name="crowd" value="notcrowded" checked>
-          Yes
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="crowd" value="crowded">
-          No
-        </label>
-      </div>
-    </div>
-
-    <div class="boxlayout">
-      <div class="radio">
-        <h4 class="bg-info">Northern or Southern hemisphere?</h4>
-        <label>
-          <input type="radio" name="hemisphere" value="northern" checked>
-          Northern
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="hemisphere" value="southern">
-          Southern
-        </label>
-      </div>
-    </div>
-
-    <button type="submit" class="btn">Go!</button>
-    </form>
-
-  </div>
-  <div class="col-md-8">
-
-    <div class="output" id="vegas">
-      <img src="https://vignette1.wikia.nocookie.net/starwars/images/d/d9/Luke-rotjpromo.jpg/revision/latest/scale-to-width-down/350?cb=20091030151422" alt="Las Vegas"></img>
-    </div>
-    <div class="output" id="everest">
-      <img src="https://vignette1.wikia.nocookie.net/starwars/images/9/9b/Princessleiaheadwithgun.jpg/revision/latest?cb=20071007050854" alt="Mount Everest"></img>
-    </div>
-    <div class="output" id="antarctica">
-      <img src="http://static.boredpanda.com/blog/wp-content/uploads/2015/11/the-daily-life-of-darth-vader-is-my-latest-365-day-photo-project-33__880.jpg" alt="Antarctica"></img>
-    </div>
-    <div class="output" id="grandcanyon">
-      <img src="http://static.boredpanda.com/blog/wp-content/uploads/2015/11/the-daily-life-of-darth-vader-is-my-latest-365-day-photo-project-33__880.jpg" alt="Grand Canyon"></img>
-    </div>
-    <div class="output" id="cabo">
-      <img src="http://screenrant.com/wp-content/uploads/young-han-solo-star-wars-movie-casting.jpg" alt="Cabo San Lucas"></img>
-    </div>
-    <div class="output" id="victoriafalls">
-      <img src="https://www.sideshowtoy.com/wp-content/uploads/2014/11/star-wars-c-3po-sixth-scale-feature-21711.jpg" alt="Victoria Falls"></img>
-    </div>
-    <div class="output" id="yellowstone">
-      <img src="https://i.ytimg.com/vi/8tjMM67-aao/maxresdefault.jpg" alt="Yellowstone"></img>
-    </div>
-    <div class="output" id="rome">
-      <img src="https://www.sideshowtoy.com/wp-content/uploads/2015/08/Boba-Fett-Stawars-feature-902491.jpg" alt="Rome"></img>
-    </div>
-    <div class="output" id="boston">
-      <img src="http://img.amiami.jp/images/product/main/153/FIGURE-013621.jpg" alt="Boston"></img>
-    </div>
-    <div class="output" id="sydney">
-      <img src="http://img.amiami.jp/images/product/main/153/FIGURE-013621.jpg" alt="Sydney"></img>
-    </div>
-
-  </div>
-</div>
-
-    temperature   setting   activities    crowds    continent
-    hot           city      lounging      yes       namerica
-    temperate     rural     exploring     no        samerica
-    cold                    nightlife               europe
-                                                    africa
-                                                    antarctica
-                                                    asia
-                                                    australia
-
-destination   vegas                                 grand canyon
-  temp        hot                    hot
-  setting     city                   rural
-  activity    lounging, nightlife
-  crowd       yes
-  continent   namerica
-
-  </div>
-</body>
-</html>
+  </body>
+  </html>

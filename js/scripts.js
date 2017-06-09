@@ -36,7 +36,7 @@ $(document).ready(function() {
 
     if (city() && crowds() && northernHem() && temperature === 'hot') {
       alert("Vegas baby!");
-    } if else (city() && !crowds() && !northernHem() && temperature === 'hot') {
+    } else if (city() && !crowds() && !northernHem() && temperature === 'hot') {
       alert("Cabo - Suns out Guns out")
     } else if (city() && crowds() && northernHem() && temperature === 'temperate') {
       alert("Rome");
@@ -57,7 +57,6 @@ $(document).ready(function() {
     } else {
       alert("you're too picky, pick one of these places");
     }
-
 
   });
 });
