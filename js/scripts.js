@@ -35,25 +35,25 @@ $(document).ready(function() {
     }
 
     if (city() && crowds() && northernHem() && temperature === 'hot') {
-      alert("Vegas baby!");
+      $("#vegas").show();
     } else if (city() && !crowds() && !northernHem() && temperature === 'hot') {
-      alert("Cabo - Suns out Guns out")
+      $("#cabo").show();
     } else if (city() && crowds() && northernHem() && temperature === 'temperate') {
-      alert("Rome");
+      $("#rome").show();
     } else if (city() && crowds() && northernHem() && temperature === 'cold') {
-      alert("Boston");
+      $("#boston").show();
     } else if (city() && crowds() && !northernHem() && (temperature === 'cold' || temperature === 'temperate')) {
-      alert("Sydney");
+      $("#sydney").show();
     } else if (!city() && crowds() && northernHem() && temperature === 'hot') {
-      alert("GCanyon");
+      $("#grandcanyon").show();
     } else if (!city() && crowds() && northernHem() && temperature === 'temperate') {
-      alert("yellowstone");
+      $("#yellowstone").show();
     } else if (!city() && !crowds() && northernHem() && temperature === 'cold') {
-      alert("mt everest");
+      $("#mounteverest").show();
     } else if (!city() && !crowds() && !northernHem() && temperature === 'cold') {
-      alert("s. pole");
+      $("#southpole").show();
     } else if (!city() && !crowds() && !northernHem() && (temperature === 'hot' || temperature === 'temperate')) {
-      alert("victoria falls");
+      $("#victoriafalls").show();
     } else {
       alert("you're too picky, pick one of these places");
     }
