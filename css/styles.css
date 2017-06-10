@@ -13,7 +13,7 @@ h1 {
   text-align: center;
 }
 
-img {
+img.border {
   width: 600px;
   padding: 5px;
   border: 1px solid black;
@@ -31,4 +31,18 @@ h3 {
 
 body {
   background-color: #FFEBCD;
+}
+
+.threepics {
+  width: 200px;
+  height: 300px;
+  margin: 1px;
+}
+
+#images {
+  text-align: center;
+}
+
+#images a {
+  display: inline-block;
 }

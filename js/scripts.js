@@ -49,14 +49,13 @@ $(document).ready(function() {
     } else if (!city() && crowds() && northernHem() && temperature === 'temperate') {
       $("#yellowstone").show();
     } else if (!city() && !crowds() && northernHem() && temperature === 'cold') {
-      $("#mounteverest").show();
+      $("#everest").show();
     } else if (!city() && !crowds() && !northernHem() && temperature === 'cold') {
       $("#southpole").show();
     } else if (!city() && !crowds() && !northernHem() && (temperature === 'hot' || temperature === 'temperate')) {
       $("#victoriafalls").show();
     } else {
-      alert("you're too picky, pick one of these places");
+      $("#consolation").show();
     }
-
   });
 });
